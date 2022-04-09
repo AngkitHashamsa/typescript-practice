@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Box from "context/Box";
-import { ThemeProvider } from "context/ThemeContext";
+import User from "context/User";
+import { UserProvider } from "context/UserContext";
 const App: React.FC = () => (
   <div className="App">
     <h2>Base</h2>
-    <ThemeProvider>
-      <Box />
-    </ThemeProvider>
+    <UserProvider>
+      <User />
+    </UserProvider>
   </div>
 );
 
