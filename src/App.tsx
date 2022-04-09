@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import Status from "components/Status";
-import User from "components/State/user";
+import TypeAssertion from "components/State/TypeAssertion";
 const App: React.FC = () => (
   <div className="App">
     <Status status="loading" />
-    <User />
+    <TypeAssertion />
   </div>
 );
 
