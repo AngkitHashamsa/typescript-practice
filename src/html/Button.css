@@ -1,0 +1,36 @@
+.btn {
+  padding: 0.25rem 0.75rem;
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s linear;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: lightblue;
+}
+.btn-primary:hover {
+  background-color: blue;
+}
+
+.btn-secondary {
+  background-color: lightgreen;
+}
+
+.btn-outline {
+  border: 2px solid lightblue;
+  border-radius: 0.25rem;
+  color: lightblue;
+}
+
+.btn-outline:hover {
+  background-color: lightblue;
+  color: white;
+  border: 2px solid lightblue;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
